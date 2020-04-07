@@ -3,7 +3,7 @@ var candyString = ['foo'];
 
 function destructivelyAddElementToBeginningOfArray(chocolateBars, candyString) {
   chocolateBars.unshift(candyString);
-  return chocolateBars
+  return chocolateBars;
 }
 
 function addElementToBeginningOfArray(chocolateBars, candyString){
@@ -11,8 +11,8 @@ function addElementToBeginningOfArray(chocolateBars, candyString){
 }
 function destructivelyAddElementToEndOfArray(chocolateBars, candyString) {
   chocolateBars.push(candyString);
-  return chocolateBars
+  return chocolateBars;
 }
-function destructivelyAddElementToEndOfArray(array, element) {
-  
+function addElementToEndOfArray(chocolateBars, candyString) {
+  return [...chocolateBars, candyString];
 }
